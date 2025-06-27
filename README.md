@@ -34,7 +34,7 @@ This blocklist was developed over several weeks by monitoring a Hisense U8N TV's
 
 ## Installation
 
-### Method 1: Direct Import to Pi-hole (Recommended)
+### 1: Direct Import to Pi-hole 
 
 1. Log into your Pi-hole admin interface
 2. Go to **Group Management** → **Adlists**
@@ -59,6 +59,9 @@ For more granular control, you can apply this blocklist only to your Hisense TV:
 3. **Import blocklist and assign to group:**
    - Add the blocklist URL as above
    - In Adlists, assign the new list to "Hisense TVs" group only
+
+4.NB!!! For each domain in the blocklist, change the group to Hisense only ie. tick Hisense and Untick default for each one.
+   - Youtube and Google are INCLUDED in this list, so they will be blocked unless you remove them or change the group.
 
 This method blocks domains only for your Hisense TV while leaving other devices unaffected.
 
