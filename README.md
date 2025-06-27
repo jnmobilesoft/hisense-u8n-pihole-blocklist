@@ -60,8 +60,7 @@ For more granular control, you can apply this blocklist only to your Hisense TV:
    - Add the blocklist URL as above
    - In Adlists, assign the new list to "Hisense TVs" group only
 
-4.  **NB!!! For each domain in the blocklist, change the group to Hisense only ie. tick Hisense and Untick default for each one.
-   - Youtube and Google are INCLUDED in this list, so they will be blocked unless you remove them or change the group.
+4.  **NB!!! - Youtube and Google are INCLUDED in this list, so make sure only the group is blocked... 
 
 This method blocks domains only for your Hisense TV while leaving other devices unaffected.
 
