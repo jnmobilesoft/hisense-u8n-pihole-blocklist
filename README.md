@@ -3,11 +3,11 @@ Pi-hole blocklist for Hisense Smart U8N TVs - blocks 100% telemetry / services /
 
 # Hisense Smart TV Pi-hole Blocklist 
 
-An aggressive, comprehensive blocklist for Hisense U8N Smart TVs to eliminate excessive telemetry and tracking while maintaining full TV functionality. Turns your TV back into a monitor that only streams LAN traffic.
+An aggressive, comprehensive blocklist for Hisense U8N Smart TVs to eliminate excessive telemetry and tracking while maintaining minimal TV functionality. Turns your TV back into a monitor that only streams LAN traffic. 
 
 ## The Problem
 
-Hisense Smart U8N TVs generate an enormous amount of telemetry requests - **up to 25,000 blocked requests per day** during just a few hours of TV usage. That's approximately **1.7 requests per second** while the TV is powered on.
+Hisense Smart U8N TVs generate an enormous amount of telemetry requests, more so if they are partially blocked - **up to 25,000 blocked requests per day** during just a few hours of TV usage. That's approximately **1.7 requests per second** while the TV is powered on.
 
 The TV attempts to connect to various tracking and telemetry domains, and when blocked, it tries alternative domains (often at 2am when you're asleep). This creates:
 - Network congestion
