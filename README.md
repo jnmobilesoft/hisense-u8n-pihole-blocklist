@@ -45,7 +45,7 @@ This blocklist was developed over several weeks by monitoring a Hisense U8N TV's
 4. Go to **Tools** → **Update Gravity**
 5. Click **Update** to apply the new blocklist
 
-### Method 2: Device-Specific Blocking (Advanced)
+### 2: Device-Specific Blocking (Advanced)
 
 For more granular control, you can apply this blocklist only to your Hisense TV:
 
