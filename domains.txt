@@ -1,0 +1,71 @@
+# Hisense Smart U8N TV Telemetry Blocklist
+# 
+# Generated from long term monitoring Hisense U8N TV network behavior
+# Blocks ~25,000 daily telemetry requests while preserving base TV functionality
+# 
+# Last updated: 2025-06-27
+# Domains: 46
+# Tested on: Hisense U8N TV, SA stock
+# Location : Cape Town
+# Provider : MWEB
+# 
+# Installation: Add this URL to Pi-hole Group Management → Adlists
+# https://raw.githubusercontent.com/jnmobilesoft/hisense-u8n-pihole-blocklist/main/domains.txt
+#
+# Categories blocked:
+# - Netflix telemetry endpoints  
+# - Amazon Video tracking
+# - Hisense cloud analytics
+# - Smart hub statistics
+# - Advertisement profiling
+# - Usage data collection
+# Most aggressive blocking 100% external calls blocked
+# To update TV software, unblock for a short time
+# whitelist as per requirements
+
+a.root-servers.net
+abtest-tv.vidaahub.com
+acr.unruly.co
+africa.pool.ntp.org
+api-global.netflix.com
+avpk-a3kw1yevmsbbvk-0.api.amazonvideo.com
+avpk-a3kw1yevmsbbvk-0.eu.api.amazonvideo.com
+cdn-0.nflximg.com
+customerevents.netflix.com
+ddc70ef48047d6c9dda0648d4373dfdfeeb48b22b8c4485d61f5c5ce13a5128.us-east-1.prod.service.minerva.devices.a2z.com
+device-ecom.vidaahub.com
+domain.vidaahub.com
+dvcstatus-dataretrv.vidaahub.com
+edvk.intsmarthub.com
+fls-eu.amazon.com
+geo-bas-af.vidaahub.com
+hisense-0ba453d1.prod.partner.netflix.net
+hisense-app.dstv.com
+home-ui-af.vidaahub.com
+ichnaea.netflix.com
+iot-voice-af.vidaahub.com
+k.root-servers.net
+layout-ui-af.vidaahub.com
+m.root-servers.net
+mediaservices.cdn-apple.com
+normandy.tombstone.experimenter.prod.webservices.mozgcp.net
+nrdp-cell4.prod.ftl.netflix.com
+nrdp.nccp.netflix.com
+nrdp.prod.cloud.netflix.com
+nrdp51-appboot.netflix.com
+nrdp80-appboot.netflix.com
+partner.vidaahub.com
+pay-vidaa.vidaahub.com
+policy-jrnl-af.vidaahub.com
+pool.ntp.org
+recommend-ui-af.vidaahub.com
+rsc-ads.vidaahub.com
+secure.netflix.com
+ter-jrnl-af.vidaahub.com
+time-bas-af.vidaahub.com
+tvmodules-vidaa.vidaahub.com
+uiboot.netflix.com
+upgrade-plc-tv-af.vidaahub.com
+vidaa-base-auth-af.vidaahub.com
+www.google.com
+www.youtube.com
